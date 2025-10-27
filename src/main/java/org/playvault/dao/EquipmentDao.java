@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface EquipmentDao extends JpaRepository<Equipment, Long>
 {
-    List<Equipment> findByCategory(String category);
+//    List<Equipment> findByCategory(String category);
 
 
 }

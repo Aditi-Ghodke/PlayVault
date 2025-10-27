@@ -12,5 +12,6 @@ public interface IssueRequestDao extends JpaRepository<IssuedRequest, Long> {
     List<IssuedRequest> findByUser(User user);
 
     //Get all requests by status
-    List<IssuedRequest> findByRequestStatus(RequestStatus requestStatus);
+    List<IssuedRequest> findByStatus(RequestStatus status);
+
 }

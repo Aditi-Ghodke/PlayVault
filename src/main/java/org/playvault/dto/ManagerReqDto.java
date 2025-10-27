@@ -14,6 +14,6 @@ public class ManagerReqDto {
     private String phone;
     @NotBlank(message = "please enter your email")
     private String email;
-    @NotBlank(message = "please enter your role")
-    private Role role;
+    @NotBlank(message = "please enter your password")
+    private String password;
 }

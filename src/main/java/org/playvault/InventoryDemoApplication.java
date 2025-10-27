@@ -24,7 +24,7 @@ public class InventoryDemoApplication {
         mapper.getConfiguration()
                 /*
                  * To tell ModelMapper to map only those props whose names match in src n dest.
-                 * objectss
+                 * objects
                  */
                 .setMatchingStrategy(MatchingStrategies.STRICT)
                 /*
